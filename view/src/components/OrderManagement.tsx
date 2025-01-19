@@ -26,7 +26,7 @@ const OrderManagement: React.FC = () => {
     const [orderToDelete, setOrderToDelete] = useState<Order | null>(null); // Track order to be deleted
     const [loading, setLoading] = useState<boolean>(false);
 
-    const apiUrl = import.meta.env.VITE_API_URL;
+    const apiUrl = '';
 
     useEffect(() => {
         fetchOrders();
